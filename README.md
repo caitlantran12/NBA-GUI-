@@ -4,6 +4,8 @@ An NBA management system built on strict Model-View-Controller (MVC) architectur
 ----
 ## Architectural Overview & System Design
 The application is built entirely on a **Model-View-Controller (MVC)** architectural pattern to ensure complete decoupling of data structures, business logic, and presentation layers.
+
+```
               ┌─────────────────────────────────────────┐
               │                 MODEL                   │
               │   (Data Structures & Business Logic)    │
@@ -16,6 +18,8 @@ The application is built entirely on a **Model-View-Controller (MVC)** architect
 │            VIEW            │           │         CONTROLLER         │
 │  (FXML / Presentation)     ├──────────►│ (Action Event Listeners)   │
 └────────────────────────────┘User Action└────────────────────────────┘
+
+```
 
 ----
 ### Core Architecture Specifications:
